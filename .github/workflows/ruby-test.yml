@@ -14,5 +14,5 @@ jobs:
           ruby-version: '3.1'
 #      - name: Install dependencies
 #        run: bundle install
-      - name: Run fizzbuzz_test.rb
-        run: ruby test/fizz_buzz_test.rb
+      - name: Run simple test
+        run: ruby test/**/*_test.rb
