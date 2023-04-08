@@ -4,7 +4,7 @@ run-name: ${{ github.actor }} is ruby testing
 on: [push]
 
 jobs:
-  ruby simple test!!:
+  run-simple-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
