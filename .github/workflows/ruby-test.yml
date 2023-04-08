@@ -4,7 +4,7 @@ run-name: ${{ github.actor }} is ruby testing
 on: [push]
 
 jobs:
-  test:
+  ruby simple test!!:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,4 +15,4 @@ jobs:
 #      - name: Install dependencies
 #        run: bundle install
       - name: Run fizzbuzz_test.rb
-        run: ruby test/fizzbuzz_test.rb
+        run: ruby test/fizz_buzz_test.rb
