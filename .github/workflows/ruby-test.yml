@@ -15,4 +15,4 @@ jobs:
 #      - name: Install dependencies
 #        run: bundle install
       - name: Run simple test
-        run: ruby test/**/*_test.rb
+        run: find test -name '*_test.rb' -exec ruby {} \;
